@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjoak1028/forkify.git"
+  },
+  "author": "CJ Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjoak1028/forkify/issues"
+  },
+  "homepage": "https://github.com/cjoak1028/forkify#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.1.1",
+    "parcel": "^2.1.1"
+  }
+}
