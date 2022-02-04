@@ -2,7 +2,7 @@ import icons from 'url:../../img/icons.svg';
 import View from './View.js';
 import previewView from './previewView.js';
 
-class bookmarksView extends View {
+class BookmarksView extends View {
     _parentElement = document.querySelector('.bookmarks__list');
     _errorMessage = 'No bookmarks yet. Find a nice recipe and bookmark it.';
     _message = '';
@@ -18,4 +18,4 @@ class bookmarksView extends View {
 
 }
 
-export default new bookmarksView();
+export default new BookmarksView();
